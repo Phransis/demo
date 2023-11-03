@@ -1,3 +1,5 @@
+//Taking user input
+
 // use std::io;
 // fn main() {
 //     println!("What's your name?");
@@ -9,6 +11,13 @@
 //         println!("My name is {name}");
     
 // }
+
+
+
+
+
+
+//Guess game without generating random number
 
 // use std::io;
 
@@ -34,6 +43,13 @@
 //         println!("Sorry try again{sad_face}...You lost");
 //     }
 // }
+
+
+
+
+
+
+//Taking user input
 
 // use std::io;
 
@@ -67,6 +83,14 @@
 //     println!("I am {}", age);
 // }
 
+
+
+
+
+
+//Guess game with a system generated number
+
+
 // use rand::Rng;
 // use std::io;
 // fn main() {
@@ -85,6 +109,13 @@
 //     println!("Random number: {}", random_number);
 // }
 
+
+
+
+
+
+
+//Guess game
 
 // use std::io;
 // use rand::Rng;
@@ -109,6 +140,14 @@
 //     println!("The secret number is: {secret_number}");
 // }
 
+
+
+
+
+
+
+//Tuples
+
 // fn main(){
 //     let x = 45/40;
 //     let y = 45%40;
@@ -117,7 +156,15 @@
 // }
 
 
+
+
+
+
+
+
+
 //Functions
+
 // fn main(){
 //     println!("Hello ");
 //     second_function();
@@ -150,6 +197,12 @@
 // }
 
 
+
+
+
+
+
+
 //Using if in a let statement
 
 // fn main(){
@@ -157,6 +210,13 @@
 //     let number = if condition {22} else {12};
 //     println!("The value is {number}")
 // }
+
+
+
+
+
+
+
 
 
 //Loops
