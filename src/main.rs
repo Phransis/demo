@@ -219,10 +219,38 @@
 
 
 
-//Loops
+//Looping till eternity
+
+// fn main(){
+//     loop{
+//         println!("Im a winner")
+//     }
+// }
+
+
+// use std::io;
+
+// fn main() {
+//     println!("Hello! Please enter a temperature in Celsius:");
+
+//     let mut input = String::new();
+//     io::stdin()
+//         .read_line(&mut input)
+//         .expect("Failed to read line");
+
+//     // Convert the input to a floating-point number
+//     let temperature: f32 = input.trim().parse().expect("Invalid input. Please enter a number.");
+
+//     // Perform the temperature conversion (replace this with your conversion formula)
+//     let after_conversion = temperature * 9.0 / 5.0 + 32.0;
+
+//     println!("{} degrees Celsius is equivalent to {} degrees Fahrenheit", temperature, after_conversion);
+// }
+
 
 fn main(){
-    loop{
-        println!("Im a winner")
-    }
+    let mut s = String::from("Hello");
+    s.push_str(", world");
+    println!("{}",s)
+    println!("code working")
 }
