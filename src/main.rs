@@ -248,9 +248,9 @@
 // }
 
 
-fn main(){
-    let mut s = String::from("Hello");
-    s.push_str(", world");
-    println!("{}",s)
-    println!("code working")
-}
+// fn main(){
+//     let mut s = String::from("Hello");
+//     s.push_str(", world");
+//     println!("{}",s)
+//     println!("code working")
+// }
