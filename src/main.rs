@@ -254,3 +254,37 @@
 //     println!("{}",s)
 //     println!("code working")
 // }
+
+
+// fn main(){
+//     let name = "Handla";
+//     let age = 100;
+//     let weight = 50.67;
+//     let male = true;
+//     let x = five();
+//         println!("My name is {name} and I'm {age} years old and a {male}. I weight {weight}kg. {x}");
+//         write_name("Duo");
+//         }
+        
+//         fn write_name(your_name: &str){
+//             println!("Its all good, {your_name}")
+//             }
+            
+//             fn five() -> i32 {
+//                 5
+//                 }
+           
+           
+// Ownnership
+    fn main(){
+        let mut s = String::from("hello ");
+        s.push_str("handla");
+        println!("{s}");
+        println!("{}", s);
+        let s1 = String::from("hello");
+        println!("{}, Cassandra", s1);
+        let s2 = s1;
+    
+        println!(" {}, world!", s2);
+    
+    }
